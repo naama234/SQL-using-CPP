@@ -1,0 +1,3 @@
+Constraint violation: value Tel-Aviv is too long for column name
+Haifa, 34
+

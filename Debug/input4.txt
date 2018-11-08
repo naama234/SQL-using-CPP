@@ -1,0 +1,9 @@
+CREATE TABLE locations ( x , y , name MAX_LENGTH 5 ) ; 
+
+# insert values 
+INSERT INTO locations ( x , y , name ) VALUES ( 12 , 34 , Haifa ) ; 
+INSERT INTO locations ( x , y , name ) VALUES ( 12 , 65 , Tel-Aviv ) ; 
+INSERT INTO locations ( x , y , name ) VALUES ( 72 , 65 , Eilat ) ; 
+
+# query for values
+SELECT name , y FROM locations WHERE x = 12 ; 
