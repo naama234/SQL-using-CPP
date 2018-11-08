@@ -1,8 +1,0 @@
-CREATE TABLE test ( column1 , column2 ) ; 
-
-# insert values (missing ; at the en
-INSERT INTO test ( column1 , column2 ) VALUES ( value11 , value12 )
-INSERT INTO test ( column1 , column2 ) VALUES ( value21 , value22 ) ; 
-
-# query for values
-SELECT column1 FROM test WHERE column2 = value12 ; 

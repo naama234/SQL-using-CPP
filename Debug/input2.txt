@@ -1,9 +1,0 @@
-CREATE TABLE people ( firstName NOT_NULL , lastName UNIQUE , city , phone ) ; 
-
-# insert values 
-INSERT INTO people ( firstName , lastName , city ) VALUES ( Joe , Nash , New-York ) ; 
-INSERT INTO people ( city , firstName ) VALUES ( New-York , Richey ) ; 
-INSERT INTO people ( firstName , phone , lastName ) VALUES ( George , 011-345-445 , Dave ) ; 
-
-# query for values
-SELECT firstName , lastName FROM people WHERE city = New-York ; 

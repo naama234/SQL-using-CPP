@@ -1,9 +1,0 @@
-Constraint violation: value 2 already exists for column id
-Kurt, Cobain
-Dave, Grohl
-Dave, Foster
-Foster
-Mustaine
-Metallica
-Unknown table bands
-
